@@ -9,5 +9,4 @@ With multiple interchangeable CPU models, an event-driven memory system, support
 gem5 has been cited by over 2400 scholarly papers according to [Google Scholar](https://scholar.google.com/scholar?cluster=5769943816602695435).
 It is used both in academia and industry for [computer architecture](https://en.wikipedia.org/wiki/Computer_architecture) and computer systems research.
 
-gem5 is licensed with a permissible BSD-style license to allow use by as many people as possible.
-
+gem5 is licensed with a permissible BSD-style license friendly to both academia and industry.
