@@ -1,5 +1,5 @@
 ---
-title: "Previous Tutorials"
+title: "Events"
 date: 2018-05-13T17:00:22-04:00
 draft: false
 weight: 100
