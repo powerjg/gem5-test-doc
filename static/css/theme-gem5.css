@@ -102,13 +102,17 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
-#site-footer div {
+#site-footer {
     background-color: var(--MENU-SECTIONS-BG-color);
-    color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+    color: var(--MENU-SECTIONS-LINK-color) !important;
+    font-size: 1.0em;
+    overflow:hidden;
 }
 
-#copyright div {
-    width: 50% !important;
+#copyright {
+    width: 19em !important;
+    float: left;
+    padding-left: 2em;
 }
 
 #site-footer a {
@@ -121,56 +125,82 @@ a:hover {
 
 #site-footer img {
     margin: 0 0 0 0 !important;
+    width: 50px;
+    display: inline;
 }
 
+#footer-links {
+    float: right;
+    padding-right: 2em;
+}
+
+#footer-links p {
+    margin: 0;
+}
 
 div.homepage-header {
-	background-color: var(--MENU-SECTIONS-BG-color);
-  padding: 20px 0px 30px 0px;
-  height: 100px;
+  background-color: var(--MENU-SECTIONS-BG-color);
+  overflow:hidden;
 }
 
-.homepage-header ul {
+div.homepage-nav  {
+  background-color: var(--MENU-HEADER-BG-color);
+  text-align: center;
+}
+
+.homepage-nav ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
+  display: inline;
 }
 
-.homepage-header li {
+.homepage-nav li {
   display: inline !important;
   width: 80px;
-  font-weight: bold;
-  border: solid;
+  font-weight: 200;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px !important;
 }
 
-.homepage-header a {
-  background-color: var(--MENU-HEADER-BG-color);
-  padding: 5px 10px 5px 10px;
+.homepage-nav a:hover {
+  color: var(--MAIN-LINK-color) !important;
+}
+
+.homepage-nav li:hover {
+  background-color: var(--MENU-SECTIONS-LINK-color);
 }
 
 div.homepage-search  {
   min-width: 30% !important;
   float: right;
-  margin-left: auto;
-  margin-right: 15px;
-  padding-top: 10px;
+  margin-top: 38px;
+  padding-right: 20px;
 }
 
 div.homepage-logo  {
   float: left;
   display: inline;
-  margin-right: auto;
+  /* Padding should be .1875 the width and 0.73 height*/
+  margin: 38px;
+  width: 200px;
 }
 
-div.homepage-nav  {
-  margin: auto;
-  float: left;
-  padding: 30px 0px 30px 0px;
+div.homepage-large-logo  {
+  margin: auto !important;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.homepage-large-logo img {
+    width: 100%;
+    padding: 8% 20% 8% 20%;
 }
 
 div.homepage-content {
   margin-right: 15%;
   margin-left: 15%;
-  padding-top: 3em;
   padding-bottom: 5em;
+  min-width: 490px;
 }
