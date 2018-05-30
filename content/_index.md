@@ -1,6 +1,5 @@
 +++
 title = "gem5"
-layout = "landing"
 +++
 
 The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture as well as processor microarchitecture.
