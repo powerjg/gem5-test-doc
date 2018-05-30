@@ -106,7 +106,8 @@ a:hover {
     background-color: var(--MENU-SECTIONS-BG-color);
     color: var(--MENU-SECTIONS-LINK-color) !important;
     font-size: 1.0em;
-    overflow:hidden;
+    overflow:auto;
+    padding-top: 10px;
 }
 
 #copyright {
@@ -140,7 +141,7 @@ a:hover {
 
 div.homepage-header {
   background-color: var(--MENU-SECTIONS-BG-color);
-  overflow:hidden;
+  overflow: auto;
 }
 
 div.homepage-nav  {
@@ -203,4 +204,45 @@ div.homepage-content {
   margin-left: 15%;
   padding-bottom: 5em;
   min-width: 490px;
+  overflow: auto;
+}
+
+.homepage-links {
+  overflow: auto;
+}
+
+.biglink-left {
+    clear: both;
+    text-align: center;
+    color: var(--MAIN-TEXT-color);
+    float: left;
+    padding: 10px;
+    width: 30%;
+    height: 30%;
+    font-size: 110%;
+    margin: 10px 30px 10px 30px;
+    float: left;
+    background-color: var(--MENU-SECTIONS-LINK-color);
+}
+
+.biglink-right {
+    text-align: center;
+    color: var(--MAIN-TEXT-color);
+    float: right;
+    padding: 10px;
+    width: 30%;
+    height: 30%;
+    font-size: 110%;
+    margin: 10px 30px 10px 30px;
+    float: right;
+    background-color: var(--MENU-SECTIONS-LINK-color);
+}
+
+.homepage-links img {
+    width: 70%;
+}
+
+.homepage-links p {
+    margin: 0;
+    padding-bottom: 5px;
 }
